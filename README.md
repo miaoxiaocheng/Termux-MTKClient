@@ -7,14 +7,14 @@
 无需chroot容器! 只要你手机有root权限就可以!
 这里以Termux 0.118.2版本演示!
 # 如何部署
-第一步换源：
+# 第一步换源：
 sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list && apt update && apt upgrade -y
-第二步给Termux文件权限:
+# 第二步给Termux文件权限:
 termux-setup-storage
 没反应就手动给文件权限!
-第三步安装必要组件依赖:
+# 第三步安装必要组件依赖:
 pkg install git sudo android-tools python3 libusb
-第四步安装部署MTKClient:
+# 第四步安装部署MTKClient:
 git clone --branch 1.52 https://github.com/bkerler/mtkclient.git 
 这一步需要特殊网络环境!
 克隆不了!也可以下载1.52版本解压到/data/user/0/com.termux/files/home/目录下!
