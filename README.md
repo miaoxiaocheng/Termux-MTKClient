@@ -36,7 +36,9 @@ pip3 install setuptools
 在继续部署MTKClient:
 
 pip3 install -r requirements.txt
+
 python3 setup.py build
+
 python3 setup.py install
 
 安装部署好可以输入命令测试一下
