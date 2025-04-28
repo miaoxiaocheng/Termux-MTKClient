@@ -1,3 +1,8 @@
+<div align="right">
+  Language:
+  🇺🇸
+  <a title="Chinese" href="./README.md">🇨🇳</a>
+</div>
 # Termux-MTKClient  
 Deploy MTKClient on Termux without chroot containers!  
 Only requires root access on your phone - perfect deployment!  
